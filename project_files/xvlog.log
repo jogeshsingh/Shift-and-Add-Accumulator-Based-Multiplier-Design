@@ -1,0 +1,24 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Xilinx/Vivado/2020.2/examples/SEQUENTIAL_MUlt.srcs/sources_1/new/ADD_B_ACC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ADD_B_ACC
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Xilinx/Vivado/2020.2/examples/SEQUENTIAL_MUlt.srcs/sources_1/new/Controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Xilinx/Vivado/2020.2/examples/SEQUENTIAL_MUlt.srcs/sources_1/new/DATA_PATH.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DATA_PATH
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Xilinx/Vivado/2020.2/examples/SEQUENTIAL_MUlt.srcs/sources_1/new/MUX_ACC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX_ACC
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Xilinx/Vivado/2020.2/examples/SEQUENTIAL_MUlt.srcs/sources_1/new/REG_A.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REG_A
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Xilinx/Vivado/2020.2/examples/SEQUENTIAL_MUlt.srcs/sources_1/new/REG_ACC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REG_ACC
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Xilinx/Vivado/2020.2/examples/SEQUENTIAL_MUlt.srcs/sources_1/new/REG_B.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REG_B
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Xilinx/Vivado/2020.2/examples/SEQUENTIAL_MUlt.srcs/sim_1/new/Top_Data_control_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Top_Data_control_tb
+INFO: [VRFC 10-2458] undeclared symbol load_B, assumed default net type wire [E:/Xilinx/Vivado/2020.2/examples/SEQUENTIAL_MUlt.srcs/sim_1/new/Top_Data_control_tb.v:42]
+INFO: [VRFC 10-2458] undeclared symbol load_ACC, assumed default net type wire [E:/Xilinx/Vivado/2020.2/examples/SEQUENTIAL_MUlt.srcs/sim_1/new/Top_Data_control_tb.v:42]
+INFO: [VRFC 10-2458] undeclared symbol load_A, assumed default net type wire [E:/Xilinx/Vivado/2020.2/examples/SEQUENTIAL_MUlt.srcs/sim_1/new/Top_Data_control_tb.v:42]
+INFO: [VRFC 10-2458] undeclared symbol clr_ACC_reg, assumed default net type wire [E:/Xilinx/Vivado/2020.2/examples/SEQUENTIAL_MUlt.srcs/sim_1/new/Top_Data_control_tb.v:42]
+INFO: [VRFC 10-2458] undeclared symbol sel_SUM, assumed default net type wire [E:/Xilinx/Vivado/2020.2/examples/SEQUENTIAL_MUlt.srcs/sim_1/new/Top_Data_control_tb.v:42]
+INFO: [VRFC 10-2458] undeclared symbol shift_A_reg, assumed default net type wire [E:/Xilinx/Vivado/2020.2/examples/SEQUENTIAL_MUlt.srcs/sim_1/new/Top_Data_control_tb.v:42]
+INFO: [VRFC 10-2458] undeclared symbol Lsb_out, assumed default net type wire [E:/Xilinx/Vivado/2020.2/examples/SEQUENTIAL_MUlt.srcs/sim_1/new/Top_Data_control_tb.v:43]
+INFO: [VRFC 10-2458] undeclared symbol Msb_out, assumed default net type wire [E:/Xilinx/Vivado/2020.2/examples/SEQUENTIAL_MUlt.srcs/sim_1/new/Top_Data_control_tb.v:43]

@@ -1,0 +1,16 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../SEQUENTIAL_MUlt.srcs/sources_1/new/ADD_B_ACC.v" \
+"../../../../SEQUENTIAL_MUlt.srcs/sources_1/new/Controller.v" \
+"../../../../SEQUENTIAL_MUlt.srcs/sources_1/new/DATA_PATH.v" \
+"../../../../SEQUENTIAL_MUlt.srcs/sources_1/new/MUX_ACC.v" \
+"../../../../SEQUENTIAL_MUlt.srcs/sources_1/new/REG_A.v" \
+"../../../../SEQUENTIAL_MUlt.srcs/sources_1/new/REG_ACC.v" \
+"../../../../SEQUENTIAL_MUlt.srcs/sources_1/new/REG_B.v" \
+"../../../../SEQUENTIAL_MUlt.srcs/sim_1/new/Top_Data_control_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
