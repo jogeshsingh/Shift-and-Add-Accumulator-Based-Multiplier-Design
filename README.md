@@ -86,13 +86,140 @@ Resister P (8-bit) , Register B (8-bit) , Register A (8-bit) . Here P is an accu
            
            
            
-           In RTL view shift_ADD is simply an internal wire and it has nothing to do in 
-           output logic ,it is basically used for processing the data between register P and register A , you can eliminate it in TOP level design.
+           In TOP level verilog design module , some signals can be eleiminated as out_b reg , out_ACC_reg , and shift_ADD which is generally a wire , 
+           rather these data signals can be included from DATAPATH in simulation window.
+         
            
-           ![RTL_view](https://user-images.githubusercontent.com/98607828/154931477-4c17fd83-69ff-4e7e-845e-a92e7726d275.png)
-
+          
            
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+![RTL_VIEW (2)](https://user-images.githubusercontent.com/98607828/154934645-cb2c47e0-5754-443c-b384-506e0b503cb3.jpg)
+
+
+4.  #### Simulation results 
         
         
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ![Simulation](https://user-images.githubusercontent.com/98607828/154930805-d6c1bee4-15aa-4016-91ac-70c317f54382.jpg)
