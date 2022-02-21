@@ -84,7 +84,12 @@ Resister P (8-bit) , Register B (8-bit) , Register A (8-bit) . Here P is an accu
               
            3. Design View ( RTL analysis) 
            
+           ![RTL_view](https://user-images.githubusercontent.com/98607828/154930976-eb8a7e23-e2e5-4a12-9c8d-f58b08e0312e.png)
            
+           
+           In RTL view shift_ADD is simply an internal wire and it has nothing to do in 
+           output logic ,it is basically used for processing the data between register P and register A , you can eliminate it in TOP level design.
+
         
         
 ![Simulation](https://user-images.githubusercontent.com/98607828/154930805-d6c1bee4-15aa-4016-91ac-70c317f54382.jpg)
