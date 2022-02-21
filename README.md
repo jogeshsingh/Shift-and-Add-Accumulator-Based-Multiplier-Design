@@ -82,7 +82,9 @@ Resister P (8-bit) , Register B (8-bit) , Register A (8-bit) . Here P is an accu
               
               
               
+           3. Design View ( RTL analysis) 
            
            
         
         
+![Simulation](https://user-images.githubusercontent.com/98607828/154930805-d6c1bee4-15aa-4016-91ac-70c317f54382.jpg)
