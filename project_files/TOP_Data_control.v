@@ -23,23 +23,21 @@
 `define DATA_WIDTH 8
 `define STATE_REG 4
 module TOP_Data_control(
-i_clk , data_input  , start , out_ACC_reg , out_A_reg , out_B_reg , A_out , p_STATE , Data_out , Data_out1 ,shift_ADD ,  done
+i_clk , data_input  , start , out_ACC_reg , out_A_reg , out_B_reg , A_out , p_STATE  ,  done
 );
 input i_clk ;
 input start ;
-output [`DATA_WIDTH-1:0]  shift_ADD ;
+wire [`DATA_WIDTH-1:0]  shift_ADD ;
 input [`DATA_WIDTH-1:0] data_input ;
 output [`DATA_WIDTH-1:0] out_ACC_reg ;
 output [`DATA_WIDTH-1:0] out_A_reg ;
 output [`DATA_WIDTH-1:0] out_B_reg ;
-output [`DATA_WIDTH-1:0] Data_out ;
-output [`DATA_WIDTH-1:0] Data_out1;
 output [`STATE_REG-1:0] p_STATE ;
 output A_out ;
 output done ;
  DATA_PATH DA(
 i_clk , load_B , load_ACC, load_A , clr_ACC_reg, sel_SUM , shift_A_reg, data_input ,
- out_ACC_reg , out_A_reg , out_B_reg, Lsb_out , Msb_out, A_out , shift_ADD, Data_out , Data_out1
+ out_ACC_reg , out_A_reg , out_B_reg, Lsb_out , Msb_out, A_out , shift_ADD
     );
     
    Controller CU(
