@@ -23,8 +23,15 @@
 `define DATA_WIDTH 8
 `define STATE_REG 4
 module TOP_Data_control(
-i_clk , data_input  , start , out_ACC_reg , out_A_reg , out_B_reg , A_out , p_STATE  ,  done
-);
+i_clk ,
+data_input  ,
+start ,
+out_ACC_reg , 
+out_A_reg ,
+out_B_reg ,
+A_out , 
+p_STATE  ,
+done);
 input i_clk ;
 input start ;
 wire [`DATA_WIDTH-1:0]  shift_ADD ;
@@ -35,16 +42,38 @@ output [`DATA_WIDTH-1:0] out_B_reg ;
 output [`STATE_REG-1:0] p_STATE ;
 output A_out ;
 output done ;
- DATA_PATH DA(
-i_clk , load_B , load_ACC, load_A , clr_ACC_reg, sel_SUM , shift_A_reg, data_input ,
- out_ACC_reg , out_A_reg , out_B_reg, Lsb_out , Msb_out, A_out , shift_ADD
-    );
+ 
+DATA_PATH DA(
+i_clk ,
+load_B ,
+load_ACC,
+load_A ,
+clr_ACC_reg,
+sel_SUM ,
+shift_A_reg,
+data_input ,
+out_ACC_reg ,
+out_A_reg , 
+out_B_reg,
+Lsb_out ,
+Msb_out,
+A_out ,
+shift_ADD );
     
-   Controller CU(
-i_clk  , load_ACC , load_B , load_A ,
- shift_A_reg , clr_ACC_reg , Lsb_out  , Msb_out,sel_SUM ,
-A_out, start , done , p_STATE
-);
+Controller CU(
+i_clk  , 
+load_ACC ,
+load_B , 
+load_A ,
+shift_A_reg , 
+clr_ACC_reg ,
+Lsb_out  , 
+Msb_out,
+sel_SUM ,
+A_out, 
+start ,
+done , 
+p_STATE);
  
       
                 
