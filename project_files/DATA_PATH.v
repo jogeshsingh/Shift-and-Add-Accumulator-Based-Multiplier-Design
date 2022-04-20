@@ -37,7 +37,7 @@ output [`DATA_WIDTH_1-1:0] out_ACC_reg ;   //accumulator /
 output [`DATA_WIDTH_1-1:0] out_A_reg ;       ///reg A --multiplicand//
 output [`DATA_WIDTH_1-1:0] out_B_reg ;     //reg B --- Multiplier //
  output A_out ;                 /////lsb bit of reg  A (aka : out_A_reg[0] ) ///  
-output [`DATA_WIDTH_1-1:0] shift_ADD ;
+wire [`DATA_WIDTH_1-1:0] shift_ADD ;
 wire [`DATA_WIDTH_1-1:0] SUM ;
 wire cout;
 
