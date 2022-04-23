@@ -86,8 +86,7 @@ Resister P (8-bit) , Register B (8-bit) , Register A (8-bit) . Here P is an accu
            
            
            
-           In TOP level verilog design module , some signals can be eliminated as out_b reg , out_ACC_reg , and (shift_ADD which is generally a wire) , 
-           rather these data signals can be included from DATAPATH in simulation window.
+          
          
            
           
