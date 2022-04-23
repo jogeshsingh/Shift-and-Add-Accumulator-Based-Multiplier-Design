@@ -24,7 +24,6 @@
 module Top_Data_control_tb();
 reg i_clk ;
 reg start ;
-wire [`D_WIDTH-1:0]  shift_ADD ;
 reg [`D_WIDTH-1:0] data_input ;
 wire [`D_WIDTH-1:0] out_ACC_reg ;
 wire [`D_WIDTH-1:0] out_A_reg ;
@@ -40,7 +39,7 @@ wire done ;
 
 DATA_PATH DUT(
 i_clk , load_B , load_ACC, load_A , clr_ACC_reg, sel_SUM , shift_A_reg, data_input ,
- out_ACC_reg , out_A_reg , out_B_reg, Lsb_out , Msb_out, A_out , shift_ADD, Data_out , Data_out1
+ out_ACC_reg , out_A_reg , out_B_reg, Lsb_out , Msb_out, A_out 
     );
     
    Controller UUT(
