@@ -34,7 +34,6 @@ p_STATE  ,
 done);
 input i_clk ;
 input start ;
-wire [`DATA_WIDTH-1:0]  shift_ADD ;
 input [`DATA_WIDTH-1:0] data_input ;
 output [`DATA_WIDTH-1:0] out_ACC_reg ;
 output [`DATA_WIDTH-1:0] out_A_reg ;
@@ -57,8 +56,7 @@ out_A_reg ,
 out_B_reg,
 Lsb_out ,
 Msb_out,
-A_out ,
-shift_ADD );
+A_out  );
     
 Controller CU(
 i_clk  , 
