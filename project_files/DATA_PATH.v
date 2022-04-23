@@ -22,7 +22,7 @@
 `define DATA_WIDTH_1 8
 module DATA_PATH(
 i_clk , load_B , load_ACC, load_A , clr_ACC_reg, sel_SUM , shift_A_reg, data_in ,
- out_ACC_reg , out_A_reg , out_B_reg, Lsb_out , Msb_out, A_out ,  shift_ADD 
+ out_ACC_reg , out_A_reg , out_B_reg, Lsb_out , Msb_out, A_out 
     );
 input i_clk ;
 input load_B ;
