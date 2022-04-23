@@ -133,9 +133,7 @@ Resister P (8-bit) , Register B (8-bit) , Register A (8-bit) . Here P is an accu
 
 
 
-
-![RTL_VIEW (2)](https://user-images.githubusercontent.com/98607828/154934645-cb2c47e0-5754-443c-b384-506e0b503cb3.jpg)
-
+![Screenshot 2022-04-23 093800](https://user-images.githubusercontent.com/98607828/164874633-c0f6cdcc-3393-4ae0-b16c-900d2b525447.jpg)
 
 4.  #### Simulation results 
         
