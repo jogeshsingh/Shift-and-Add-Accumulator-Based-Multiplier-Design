@@ -44,7 +44,7 @@ Resister P (8-bit) , Register B (8-bit) , Register A (8-bit) . Here P is an accu
            let's understand by taking our previous registers P , B , A .
            
            we have adder unit in which if we get the LSB bit of register A then we'll add (P+B) in the register P and shift 
-           the data from P(right shift) in the MSB(nit position             of 7 ) in  Register A . else if LSB of A is 0 then we 'll only shift 
+           the data from P(right shift) in the MSB(bit position of 7 ) in  Register A . else if LSB of A is 0 then we 'll only shift 
            the P into MSB of register A with 0's added in P with previous data in P ( P(previous) +0000_0000). 
            
            
